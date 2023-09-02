@@ -17,8 +17,7 @@ jobs:
           pwd
           ls
           echo "Start the app"
-          chmod +x shopping-store-linux-amd64
-          shopping-store-linux-amd64 &
+          ./shopping-store-linux-amd64 &
           echo "Install dependancies from lockfile"
           npm ci 
           echo "Run the tests"
