@@ -17,8 +17,8 @@ jobs:
           pwd
           ls
           echo "Start the app"
-          chmod +x ../../shopping-store-windows-386.exe
-          ../../shopping-store-windows-386.exe &
+          chmod +x shopping-store-windows-386.exe
+          shopping-store-windows-386.exe &
           echo "Install dependancies from lockfile"
           npm ci 
           echo "Run the tests"
