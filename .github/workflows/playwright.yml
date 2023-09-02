@@ -15,7 +15,7 @@ jobs:
       - name: Run Tests
         run: |
           pwd
-          ls ../../playwrightWithJS
+          ls
           echo "Start the app"
           chmod +x ../../shopping-store-windows-386.exe
           ../../shopping-store-windows-386.exe &
